@@ -1,0 +1,20 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+/*Header Header Header Header Header Header Header*/
+nav a{
+  text-transform: capitalize;
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover{
+  background: black;
+  color: white;                         /* The way you can add a larger background for hovering links */
+  outline: 1em;
+  outline-color: black;
+  outline-style: solid;
+  box-shadow: 0 0 0 1em black;
+}
+/*Header Header Header Header Header Header Header*/
