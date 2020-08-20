@@ -3,7 +3,7 @@ html{
   border-right:  200px solid rgb(247,246,244);
   border-top:  30px solid rgb(247,246,244);
   border-bottom: 30px solid rgb(247,246,244);
-  height: 100%
+  min-width:950px;  /* Pay EXTRA attention to min attributes, they support elements from collapsing */
 }
 
 body{
@@ -11,6 +11,7 @@ body{
   padding-top: 10px;
   padding-left: 30px;
   padding-right: 30px;
+  padding-bottom: 10px;
 }
 
 /*Header Header Header Header Header Header Header*/
@@ -63,3 +64,80 @@ nav{
   min-height: 3em;
 }
 /*Header Header Header Header Header Header Header*/
+
+/*Body Body Body Body Body Body Body Body Body Body*/
+.mainbody{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /*grid-auto-rows: minmax(250px,auto);*/
+  gap: 2em;
+
+}
+
+.slide{
+  margin-top: 1.5em;
+}
+
+.sidebar{
+  display: grid;
+  grid-template-rows: auto 1fr 1fr;
+  gap: 2em;
+
+}
+
+.newsletter label{
+  display: block;
+  text-align: left;
+  margin-left: 0.65em;
+  margin-top: 1em;
+  margin-bottom: -0.5em;
+}
+
+.newsletter{
+  text-align: center;
+}
+
+.newsletter input[type=text]{
+  width: 360px;
+  height: 2.5em;
+  border: 2px solid rgb(221,221,221);
+  margin-top: 1em;
+  background: rgb(241,241,241);
+}
+
+.newsletter input[type=submit]{
+  display: block;
+  text-align: center;
+  width: 365px;
+  height: 3.7em;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  background: rgb(132,132,132);
+}
+
+.first_content{
+  grid-column: 1/3;
+  height: auto;
+  border-bottom: 1px solid #eee;
+
+}
+
+.first_side{
+  height: auto;
+  border-bottom: 1px solid #eee;
+
+}
+
+.post{
+  border-bottom: 1px solid #eee;
+  padding-bottom: 40px;
+}

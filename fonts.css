@@ -18,3 +18,47 @@ nav a:hover{
   box-shadow: 0 0 0 1em black;
 }
 /*Header Header Header Header Header Header Header*/
+
+/*Body Body Body Body Body Body Body Body Body Body*/
+.sign{
+  text-transform: uppercase;
+  font-size: 7px;
+  color: rgb(140,140,140);
+}
+
+.content a{
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.content img{
+  margin-top: 10px;
+}
+
+.content a:hover{
+  color: rgb(88,175,218);
+}
+
+.content h2{
+  font-size: 20px;
+}
+
+.credit{
+  color: rgb(196,196,196);
+}
+
+.credit span{
+  color: black;
+}
+
+.newsletter label{
+  color: rgb(132,132,132);
+  text-transform: capitalize;
+}
+
+.newsletter input[type=submit]{
+  color: white;
+  font-size: 15px;
+}
